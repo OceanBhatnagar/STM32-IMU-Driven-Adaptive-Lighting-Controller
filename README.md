@@ -3,6 +3,10 @@
 This repository contains the source code and documentation for **STM32 IMU Driven Adaptive Lighting-Controller**, where an STM32 microcontroller interfaces with an MPU6050 IMU sensor to compute roll angle using a Kalman filter and dynamically control LED brightness via PWM.  
 The project demonstrates real-time embedded system design using STM32 HAL, FreeRTOS task scheduling, and custom sensor drivers.
 
+<p align="center">
+  <img src="https://github.com/OceanBhatnagar/STM32-IMU-Driven-Adaptive-Lighting-Controller/blob/main/Project%20Photograph/AT%20LEFT%20ORIENTATION.jpeg?raw=true" width="600" title="Project Hardware Setup">
+</p>
+
 ## Features  
 - **MPU6050 IMU Interface**: Reads accelerometer and gyroscope data over I2C for motion sensing.  
 - **Kalman Filter Implementation**: Sensor fusion algorithm to accurately estimate roll angle with noise reduction.  
